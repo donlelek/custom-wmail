@@ -1,13 +1,19 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,600,700,700italic,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,600italic,600,700,700italic,300italic,300);
 
 /* get nice fonts everywhere */
 * {
-    font-family: 'Open Sans', 'SegoeUI', sans-serif; 
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;  
+}
+
+/* increase font size globally */
+body {
+    font-size: 110%;
 }
 
 /* hide scrollbars */
 ::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 /* hide side ads, wider email screen */
@@ -47,13 +53,12 @@
 /* min width and font size for left bar */
 .nH.oy8Mbf.nn.aeN {
     min-width:202px;
-    font-size: 18px;
+    font-size: 1.2em;
 }
 
 /* hangouts applet mods*/
 .T0.aND.akj.aZ6.a5z.pp.aj3 {
     padding-right: 8px !important;
-    overflow-y: hidden;
 }
 
 .akj.aND {
@@ -81,4 +86,9 @@
 .l2.ov {
     padding-bottom: 20px !important;
     text-shadow: none !important;
+}
+
+/* multicolor google logo */
+.gb_X .gb_Vb .gb_Xb {
+    background-position: 0px -763px !important;
 }
