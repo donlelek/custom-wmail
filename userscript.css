@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600italic,600,700,700italic,300italic,300);
+
+/* get nice fonts everywhere */
+* {
+    font-family: 'Open Sans', 'SegoeUI', sans-serif; 
+}
+
+
+/* hide side ads, wider email screen */
+.iY .Bu.y3 {
+    display: none;
+}
+
+/* messages full width */
+.if {
+     margin-right: 0;
+}
+
+/* hide scrollbar */
+.Tm::-webkit-scrollbar {
+    width: 1px !important;
+}
+
+/* buttons */
+.T-I {
+    border-radius:0px !important;
+    border: 0px !important;
+    margin-right: 0px !important;
+    background-color: #d9d9dc !important;
+    background-image: none !important;
+}
+
+.apF {
+    margin-left: 16px !important;
+    width: 20px !important;
+}
+
+/* min width and font size for left bar */
+.nH.oy8Mbf.nn.aeN {
+    min-width:202px;
+    font-size: 18px;
+}
+
+/* hangouts applet mods*/
+.T0.aND.akj.aZ6.a5z.pp.aj3 {
+    padding-right: 8px !important;
+}
+
+.akj.aND {
+    left: -15px !important;
+}
+
+.aj5.J-KU-Jg {
+    width: 192px !important;
+}
+
+/* get rid of lines in mail list */
+.xY {
+    border-bottom: 0px !important;
+}
+
+/* get rid of compose button, quick reply, 
+   and  gmail/contacts/task selector */
+.z0,
+.aki.pp,
+.ip.iq {
+    display: none !important; 
+}
+
+/* get rid of extra space after status section */
+.l2.ov {
+    padding-bottom: 20px !important;
+}
