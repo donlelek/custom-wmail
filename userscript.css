@@ -5,6 +5,11 @@
     font-family: 'Open Sans', 'SegoeUI', sans-serif; 
 }
 
+/* hide scrollbars */
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* hide side ads, wider email screen */
 .iY .Bu.y3 {
     display: none;
@@ -18,11 +23,6 @@
 /* grey msg background */
 .iY .Bu {
     background: #d9d9dc !important;
-}
-
-/* hide scrollbar */
-.Tm::-webkit-scrollbar {
-    width: 1px !important;
 }
 
 /* button customization */
@@ -53,6 +53,7 @@
 /* hangouts applet mods*/
 .T0.aND.akj.aZ6.a5z.pp.aj3 {
     padding-right: 8px !important;
+    overflow-y: hidden;
 }
 
 .akj.aND {
