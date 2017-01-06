@@ -5,7 +5,6 @@
     font-family: 'Open Sans', 'SegoeUI', sans-serif; 
 }
 
-
 /* hide side ads, wider email screen */
 .iY .Bu.y3 {
     display: none;
@@ -16,23 +15,33 @@
      margin-right: 0;
 }
 
+/* grey msg background */
+.iY .Bu {
+    background: #d9d9dc !important;
+}
+
 /* hide scrollbar */
 .Tm::-webkit-scrollbar {
     width: 1px !important;
 }
 
-/* buttons */
+/* button customization */
 .T-I {
     border-radius:0px !important;
     border: 0px !important;
     margin-right: 0px !important;
-    background-color: #d9d9dc !important;
+    background-color: transparent !important;
     background-image: none !important;
 }
 
 .apF {
     margin-left: 16px !important;
     width: 20px !important;
+}
+
+/* blue send button */
+.T-I-atl {
+    background-color: #4d90fe !important;
 }
 
 /* min width and font size for left bar */
@@ -67,7 +76,8 @@
     display: none !important; 
 }
 
-/* get rid of extra space after status section */
+/* get rid of extra space and ugly shadows after status section */
 .l2.ov {
     padding-bottom: 20px !important;
+    text-shadow: none !important;
 }
